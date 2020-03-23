@@ -82,3 +82,22 @@ Napisati Python-skript koji stampa na standardni izlaz autora (−a), cenu (−c
 		$./05knjiga.py -c "Python Standard Library"
 		50eur
 
+## 6. Zadatak
+Napisati Python skript koji iz html fajla koji je zadat kao prvi argument komandne linije izdvaja sve linkove, ili sve slike, u zavisnosti da li je drugi argument komandne linije l ili s.
+
+		Primer fajla za sesti zadatak:
+
+		<html>
+			<body>
+				<h2> Norwegian Mountain Trip </h2>
+				<img border="0" src="/images/pulpit.jpg" width="304"/>
+				<h2> One more image </h2>
+				<img src="/images/image.jpg"/>
+				<a href="http://www.matf.bg.ac.rs/~mirko"> Link </a>
+				<h2> Image as link </h2> 
+				<a href="http://www.matf.bg.ac.rs/~mirko"> 
+					<img src="/images/image.jpg">
+				</a>
+			</body>
+		</html>
+
