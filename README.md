@@ -4,7 +4,8 @@ Neki reseni ispitni zadaci iz kursa Leksicka analiza na Matematickom fakultetu. 
 
 Tekstovi zadataka:
 
-# 1.  Napisati Python skript koji kao prvi argument komandne linije prima putanju do fajla sa ekstenzijom ".txt" koji sadrzi u sebi proizvoljan tekst sa nekakvim datumima. Kao drugi argument skript prima broj dana (pozitivan ili negativan) za koliko treba pomeriti sve datume unapred ili u nazad. Skript treba da u istom direktorijumu napravi fajl sa pomerenim datumima.  Ekstenzija novog fajla je ista kao i ulaznog, a ime se dobija nadvezivanjem stringa "new" na staro ime fajla.
+## 1. Zadatak
+Napisati Python skript koji kao prvi argument komandne linije prima putanju do fajla sa ekstenzijom ".txt" koji sadrzi u sebi proizvoljan tekst sa nekakvim datumima. Kao drugi argument skript prima broj dana (pozitivan ili negativan) za koliko treba pomeriti sve datume unapred ili u nazad. Skript treba da u istom direktorijumu napravi fajl sa pomerenim datumima.  Ekstenzija novog fajla je ista kao i ulaznog, a ime se dobija nadvezivanjem stringa "new" na staro ime fajla.
 
 	Primer ulazne datoteke za prvi zadatak:
 
