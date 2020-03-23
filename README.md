@@ -9,9 +9,9 @@ Napisati Python skript koji kao prvi argument komandne linije prima putanju do f
 
 		Primer ulazne datoteke za prvi zadatak:
 
-		U nedeleju 25.03.2020. u Republici Srbiji je 
+		U nedeleju 15.03.2020. u Republici Srbiji je 
 		proglaseno vanredno stanje. Od ponedeljka
-		26.3.2020. je obustavljena nastava u svim
+		16.3.2020. je obustavljena nastava u svim
 		skolama i fakultetima.
 
 		Ovaj file je dovoljan za demonstriranje
@@ -68,8 +68,8 @@ Napisati Python skript koji kao argument komadne linije prima naziv fajla u kome
 		1 b 2
 		2 b 2
 
-		Mozeti promeniti fajl konacni_automat.txt
-		i probati sa drugim automatom.
+		# Mozeti promeniti fajl konacni_automat.txt
+		# i probati sa drugim automatom.
 
 ## 5. Zadatak
 Napisati Python-skript koji stampa na standardni izlaz autora (−a), cenu (−c), izdavaca (−i) ili godinu izdanja (−g) knjige koja se navodi kao argument komandne linije, u zavinosti od prisutne opcije komandne linije (u slucajuda nema opcija, ispisati sve podatke o trazenoj knjizi). Informacije o knjigama se nalaze u fajlu knjige.xml.
@@ -100,4 +100,17 @@ Napisati Python skript koji iz html fajla koji je zadat kao prvi argument komand
 				</a>
 			</body>
 		</html>
+
+## 7. Zadatak.
+Napisati Python skript koji iz tekstualnog fajla koji se zadaje kao argument komandne linije, izdvaja sve ispravno zapisane datume. Dan i mesec obavezno sadrze dve cifre, a godina cetiri.  Jednostavnosti radi, pretpostaviti da svaki mesec ima 31 dan. Separator izmedju dana i meseca, kao i meseca i godine, mora da bude isti, i jedan od sledecih . , - ili /.
+
+		Primer za sedmi zadatak:
+		
+		Ovo je fajl u kome se nalazi neki tekst.
+		Tekst sadrzi datume u sebi: 10.02.2011
+		Ovo je jos jedan datum: 31-02-0000
+		a potom I jos jedan: 13/05/2111. 
+		U delu kojinema validnih datuma:
+		01/13/2011 32/03/2001 11-11.2011
+
 
