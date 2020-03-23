@@ -1,0 +1,14 @@
+# ovo je neki komentar
+# prva linija fajla sadrzi azbuku
+a,b
+#drugi linija sadrzi stanja automata
+0, 1, 2
+#treca linija sadrzi pocetno stanje
+0
+#cetvrta linija sadrzi zavrna stanja
+1, 2
+#ostale linije sadrze prelaze automata
+0 a 1
+0 b 2
+1 b 2
+2 b 2
