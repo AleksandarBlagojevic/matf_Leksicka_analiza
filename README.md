@@ -123,4 +123,19 @@ Napisati Python skript koji iz tekstualnog fajla koji se zadaje kao argument kom
 		U delu koji sledi, nema validnih adresa:
 		256.211.1.2 0001.0.0.1 136.23.11.1234
 
+## 9. Zadatak
+Napisati Python-skript koji kao prvi argument komandne linije prihvata ime LATEX fajla koji u sebi sadrzi tabelu sa konacnim rezultatima ispita iz LA. Na osnovu ovog fjla treba generisati ".html" fajl koji sadrzi tabelu sa ocenama sortiranim opadajuce. Tabela treba da ima kolone (Rbr, Ime Prezime, Ocena).
+
+		Primer za deveti zadatak:
+
+		\begin{table}[ht]
+		\caption{Rezultati iz LA}
+		\begin{tabular}{c c c c c}
+		Rbr & Ime & Prezime & Kol & & Ispit \\
+		1 & Marko & Markovic & 30 & & 45 \\
+		2 & Branko & Brankovic & 20 & & 25 \\
+		3 & Janko & Jankovic & 30 & & 51 \\
+		\end{tabular}
+		\end{table}
+
 
