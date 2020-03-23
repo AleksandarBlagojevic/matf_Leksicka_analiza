@@ -50,7 +50,9 @@ Datoteka cija putanja se navodi kao argument komandne linije, sadrzi e-mailove k
 
 ## 4. Zadatak
 Napisati Python skript koji kao argument komadne linije prima naziv fajla u kome je zadat konacni automat, u formatu koji je naveden u prilogu zadatka (linije koje pocinju znakom # su komentari, a od ostalih linija, prvapredstavlja azbuku, druga skup stanja, treca pocetno stanje automata, cetvrta skup zavrnih, a ostale prelaze automata). Proveriti da li je automat ispravno zadat (pocetno stanje u skupu stanja, sva zavrsna stanja u skupu stanja, svi prelazi definisati nad datim stanjima i azbukom), i proveriti da li je automat deterministicki. Ako jeste ucitati rec sa standardnog ulaza i proveriti da li je automat prihvata.
+
 		Primer za cetvrti zadatak:
+
 		# ovo je neki komentar
 		# prva linija fajla sadrzi azbuku
 		a,b
@@ -66,5 +68,17 @@ Napisati Python skript koji kao argument komadne linije prima naziv fajla u kome
 		1 b 2
 		2 b 2
 
+		Mozeti promeniti fajl konacni_automat.txt
+		i probati sa drugim automatom.
 
+## 5. Zadatak
+Napisati Python-skript koji stampa na standardni izlaz autora (−a), cenu (−c), izdavaca (−i) ili godinu izdanja (−g) knjige koja se navodi kao argument komandne linije, u zavinosti od prisutne opcije komandne linije (u slucajuda nema opcija, ispisati sve podatke o trazenoj knjizi). Informacije o knjigama se nalaze u fajlu knjige.xml.
+
+		Primer pozivanja programa:
+		
+		$./05knjiga.py -a Yacc
+		Filip Maric
+		
+		$./05knjiga.py -c "Python Standard Library"
+		50eur
 
