@@ -38,6 +38,7 @@ Napisati Python skript koji kao prvi argument komandne linije prima putanju do f
 
 ## 3. Zadatak
 Datoteka cija putanja se navodi kao argument komandne linije, sadrzi e-mailove koje je korisnik slao ali i one koje je primio. E-mail adresa korisnika se zadaje kao drugi argument komandne linije. Napisati Python skript koji prikazuje e-mail adrese na koje je korisnik najcesce slao poruke uredjene po broju poslatih poruka, kao i one adrese sa kojih je dobio najvise poruka, takodje sortirane. Datoteka sadrzi vise poruka u sledecem formatu:
+
 		Date: Mon, 5 Jul 1999 23:46:18 -0500
 		From: John Doe <johndoe@students.uiuc.edu>
 		To: John Smith <jsmith@staff.uiuc.edu>, user@host.com
@@ -46,5 +47,24 @@ Datoteka cija putanja se navodi kao argument komandne linije, sadrzi e-mailove k
 
 		This is the message body. It is seperated from the headers by a blank
 		line. The message body can span multiple lines.
+
+## 4. Zadatak
+Napisati Python skript koji kao argument komadne linije prima naziv fajla u kome je zadat konacni automat, u formatu koji je naveden u prilogu zadatka (linije koje pocinju znakom # su komentari, a od ostalih linija, prvapredstavlja azbuku, druga skup stanja, treca pocetno stanje automata, cetvrta skup zavrnih, a ostale prelaze automata). Proveriti da li je automat ispravno zadat (pocetno stanje u skupu stanja, sva zavrsna stanja u skupu stanja, svi prelazi definisati nad datim stanjima i azbukom), i proveriti da li je automat deterministicki. Ako jeste ucitati rec sa standardnog ulaza i proveriti da li je automat prihvata.
+		Primer za cetvrti zadatak:
+		# ovo je neki komentar
+		# prva linija fajla sadrzi azbuku
+		a,b
+		#drugi linija sadrzi stanja automata
+		0, 1, 2
+		#treca linija sadrzi pocetno stanje
+		0
+		#cetvrta linija sadrzi zavrna stanja
+		1, 2
+		#ostale linije sadrze prelaze automata
+		0 a 1
+		0 b 2
+		1 b 2
+		2 b 2
+
 
 
