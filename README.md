@@ -101,7 +101,7 @@ Napisati Python skript koji iz html fajla koji je zadat kao prvi argument komand
 			</body>
 		</html>
 
-## 7. Zadatak.
+## 7. Zadatak
 Napisati Python skript koji iz tekstualnog fajla koji se zadaje kao argument komandne linije, izdvaja sve ispravno zapisane datume. Dan i mesec obavezno sadrze dve cifre, a godina cetiri.  Jednostavnosti radi, pretpostaviti da svaki mesec ima 31 dan. Separator izmedju dana i meseca, kao i meseca i godine, mora da bude isti, i jedan od sledecih . , - ili /.
 
 		Primer za sedmi zadatak:
@@ -112,5 +112,15 @@ Napisati Python skript koji iz tekstualnog fajla koji se zadaje kao argument kom
 		a potom I jos jedan: 13/05/2111. 
 		U delu kojinema validnih datuma:
 		01/13/2011 32/03/2001 11-11.2011
+
+## 8. Zadatak
+Napisati Python skript koji iz tekstualnog fajla koji se zadaje kao argument komandne linije, izdvaja sve ispravno zapisane IP-adrese.
+
+		Primer za osmi zadatak:
+		
+		Ovo je jos jedna adresa: 255.255.255.255
+		IP-adresa alasa je: 147.91.64.2
+		U delu koji sledi, nema validnih adresa:
+		256.211.1.2 0001.0.0.1 136.23.11.1234
 
 
